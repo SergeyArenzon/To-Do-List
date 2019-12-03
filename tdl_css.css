@@ -1,0 +1,56 @@
+body{
+    background-image:linear-gradient(to right, #076585 ,#fff); ;
+
+}
+
+.toDos{
+    height: 10px;
+    background: black;
+    border: 1px solid white;
+
+
+}
+#title{
+
+    background: rgb(27, 86, 248);
+    height: 40px;
+    
+
+}
+#table{
+
+    width: 500px;
+    align-content: center;
+    margin: auto;
+    border:1.5px solid rgba(255, 255, 255, 0.034);
+    margin-top: 100px;
+    
+    
+}
+
+#newTodoText{
+    background: rgb(230, 230, 230);
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0;
+    border: 0;
+    color: gray;
+    
+
+}
+
+#TO-DO-LIST{
+    color: cornsilk;
+    padding-left:14px ;
+    font-size: 30px;
+    padding-top: 3px ;
+
+}
+span{
+    height: 100%;
+    width: 50;
+    float: right;
+    padding-right: 7px;
+}
