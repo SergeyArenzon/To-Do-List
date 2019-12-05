@@ -3,54 +3,94 @@ body{
 
 }
 
-.toDos{
-    height: 10px;
-    background: black;
-    border: 1px solid white;
-
-
-}
-#title{
-
-    background: rgb(27, 86, 248);
-    height: 40px;
-    
-
-}
 #table{
 
-    width: 500px;
-    align-content: center;
-    margin: auto;
-    border:1.5px solid rgba(255, 255, 255, 0.034);
-    margin-top: 100px;
+    width: 350px;  
+    margin: 100px auto;
+    box-shadow: 5px 5px 20px   #79777767;
     
     
 }
+#todoTitle{
+    font-family: 'Sulphur Point', sans-serif;
+    background: rgb(88, 88, 214);
+    height: 45px;
+    line-height: 50px;
+    padding-left: 10px;
+    color: whitesmoke;
+    font-size: 25px;
 
-#newTodoText{
-    background: rgb(230, 230, 230);
-    height: 40px;
-    width: 100%;
-    text-align: center;
-    font-size: 1.5em;
-    padding: 0;
+}
+
+#plusBtn{
+    background: transparent;
     border: 0;
-    color: gray;
-    
-
-}
-
-#TO-DO-LIST{
-    color: cornsilk;
-    padding-left:14px ;
-    font-size: 30px;
-    padding-top: 3px ;
-
-}
-span{
-    height: 100%;
-    width: 50;
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
     float: right;
-    padding-right: 7px;
+    line-height: 45px;
+    outline: none;
+}
+
+#searchBox{
+    width: 100%;
+    border: 0;
+    padding: 0;
+    height: 45px;
+    font-size: 20px;
+    padding-left: 10px;
+    color: gray;
+    box-sizing: border-box;
+    display: block;
+}
+#toDos{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    padding: 0;
+    width: 100%;
+    background: rgb(240, 240, 240);   
+    box-sizing: border-box;
+    height: 45px;
+    line-height: 45px;
+    font-size: 25px;
+    color: gray;
+    font-family: 'Dosis', sans-serif;
+
+    
+}
+
+li:nth-child(2n){
+    background: white;
+
+}
+
+.lineThrough{
+    text-decoration: line-through;
+    color: rgb(182, 179, 179);
+   
+}
+
+
+
+span{
+    text-align: center;
+    color: white;
+    width: 0;
+    height: 45px;
+    display: inline-block;
+    background: rgb(248, 46, 46);
+    margin-right:12px;
+    border: 0;
+    opacity: 0;
+}
+
+li:hover span{
+    width: 45px;
+    transition:.2s linear ;
+    opacity: 1;
 }
