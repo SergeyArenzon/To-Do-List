@@ -94,3 +94,9 @@ li:hover span{
     transition:.2s linear ;
     opacity: 1;
 }
+#removeAllBtn{
+    
+    margin-left: 111px;
+    margin-bottom:8px ;
+
+}

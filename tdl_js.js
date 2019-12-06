@@ -44,3 +44,16 @@ $("#searchBox").on("keypress",function(k){
         }
     }
 })
+
+
+$("#removeAllBtn").on("click",function(){
+   $('#toDos').fadeOut(500,function(){
+    $('#toDos').html()
+    
+   })
+
+
+   
+
+
+})
